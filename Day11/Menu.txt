@@ -1,0 +1,8 @@
+﻿---------------Movie Database APP-------------------
+To Register a New Movie -------------Press C
+To Upadate a Movie Details ----------Press U
+To Finda A Movie On Title -----------Press R
+To Delete a Movie -------------------Press D
+
+
+------------------------------------------------------
