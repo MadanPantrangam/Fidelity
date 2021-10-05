@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TrainningDB" Class="DataManagerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESSNEW;Initial Catalog=TrainningDB;Integrated Security=True" SettingsObjectName="Day01.Properties.Settings" SettingsPropertyName="TrainningDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Customer" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="VisitTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="City" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Dept" Member="Depts">
+    <Type Name="Dept">
+      <Column Name="DeptId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DeptName" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="Dept_Employee" Member="Employees" ThisKey="DeptId" OtherKey="DepId" Type="Employee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Employee" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="EmpId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmpName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmpAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmpSalary" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DepId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Dept_Employee" Member="Dept" ThisKey="DepId" OtherKey="DeptId" Type="Dept" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Doctor" Member="Doctors">
+    <Type Name="Doctor">
+      <Column Name="DocId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Specilization" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Fee" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Doctor_Patient" Member="Patients" ThisKey="DocId" OtherKey="DocId" Type="Patient" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Patient" Member="Patients">
+    <Type Name="Patient">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ContactNo" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="VisitDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DocId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Doctor_Patient" Member="Doctor" ThisKey="DocId" OtherKey="DocId" Type="Doctor" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
