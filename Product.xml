@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AllItem>
+	<Item>
+		<ItemId>1</ItemId>
+		<ItemName>Cake - Cake Sheet Macaroon</ItemName>
+		<ItemPrice>15</ItemPrice>
+		<ItemQuantity>1</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>2</ItemId>
+		<ItemName>Sage - Ground</ItemName>
+		<ItemPrice>100</ItemPrice>
+		<ItemQuantity>2</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>3</ItemId>
+		<ItemName>Ecolab - Lime - A - Way 4/4 L</ItemName>
+		<ItemPrice>6</ItemPrice>
+		<ItemQuantity>3</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>4</ItemId>
+		<ItemName>Capers - Ox Eye Daisy</ItemName>
+		<ItemPrice>43</ItemPrice>
+		<ItemQuantity>4</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>5</ItemId>
+		<ItemName>Wine - Segura Viudas Aria Brut</ItemName>
+		<ItemPrice>94</ItemPrice>
+		<ItemQuantity>5</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>6</ItemId>
+		<ItemName>Pork Salted Bellies</ItemName>
+		<ItemPrice>84</ItemPrice>
+		<ItemQuantity>6</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>7</ItemId>
+		<ItemName>Brandy - Orange, Mc Guiness</ItemName>
+		<ItemPrice>43</ItemPrice>
+		<ItemQuantity>7</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>8</ItemId>
+		<ItemName>Rosemary - Dry</ItemName>
+		<ItemPrice>26</ItemPrice>
+		<ItemQuantity>8</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>9</ItemId>
+		<ItemName>Wine - Hardys Bankside Shiraz</ItemName>
+		<ItemPrice>52</ItemPrice>
+		<ItemQuantity>9</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>10</ItemId>
+		<ItemName>Honey - Lavender</ItemName>
+		<ItemPrice>48</ItemPrice>
+		<ItemQuantity>10</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>11</ItemId>
+		<ItemName>Squash - Guords</ItemName>
+		<ItemPrice>74</ItemPrice>
+		<ItemQuantity>11</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>12</ItemId>
+		<ItemName>Mix - Cocktail Ice Cream</ItemName>
+		<ItemPrice>17</ItemPrice>
+		<ItemQuantity>12</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>13</ItemId>
+		<ItemName>Cabbage - Savoy</ItemName>
+		<ItemPrice>26</ItemPrice>
+		<ItemQuantity>13</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>14</ItemId>
+		<ItemName>Energy Drink</ItemName>
+		<ItemPrice>83</ItemPrice>
+		<ItemQuantity>14</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>15</ItemId>
+		<ItemName>Irish Cream - Baileys</ItemName>
+		<ItemPrice>13</ItemPrice>
+		<ItemQuantity>15</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>16</ItemId>
+		<ItemName>Chilli Paste, Ginger Garlic</ItemName>
+		<ItemPrice>55</ItemPrice>
+		<ItemQuantity>16</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>17</ItemId>
+		<ItemName>Aromat Spice / Seasoning</ItemName>
+		<ItemPrice>92</ItemPrice>
+		<ItemQuantity>17</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>18</ItemId>
+		<ItemName>Chilli Paste, Ginger Garlic</ItemName>
+		<ItemPrice>22</ItemPrice>
+		<ItemQuantity>18</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>19</ItemId>
+		<ItemName>Beef - Outside, Round</ItemName>
+		<ItemPrice>90</ItemPrice>
+		<ItemQuantity>19</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>20</ItemId>
+		<ItemName>Pie Shells 10</ItemName>
+		<ItemPrice>51</ItemPrice>
+		<ItemQuantity>20</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>21</ItemId>
+		<ItemName>Beef - Ox Tail, Frozen</ItemName>
+		<ItemPrice>57</ItemPrice>
+		<ItemQuantity>21</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>22</ItemId>
+		<ItemName>Island Oasis - Cappucino Mix</ItemName>
+		<ItemPrice>60</ItemPrice>
+		<ItemQuantity>22</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>23</ItemId>
+		<ItemName>Oil - Macadamia</ItemName>
+		<ItemPrice>5</ItemPrice>
+		<ItemQuantity>23</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>24</ItemId>
+		<ItemName>Pimento - Canned</ItemName>
+		<ItemPrice>100</ItemPrice>
+		<ItemQuantity>24</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>25</ItemId>
+		<ItemName>Nut - Pine Nuts, Whole</ItemName>
+		<ItemPrice>82</ItemPrice>
+		<ItemQuantity>25</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>26</ItemId>
+		<ItemName>Lemonade - Pineapple Passion</ItemName>
+		<ItemPrice>72</ItemPrice>
+		<ItemQuantity>26</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>27</ItemId>
+		<ItemName>Potato - Sweet</ItemName>
+		<ItemPrice>42</ItemPrice>
+		<ItemQuantity>27</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>28</ItemId>
+		<ItemName>Dehydrated Kelp Kombo</ItemName>
+		<ItemPrice>28</ItemPrice>
+		<ItemQuantity>28</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>29</ItemId>
+		<ItemName>Puree - Guava</ItemName>
+		<ItemPrice>48</ItemPrice>
+		<ItemQuantity>29</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>30</ItemId>
+		<ItemName>Table Cloth 62x114 Colour</ItemName>
+		<ItemPrice>34</ItemPrice>
+		<ItemQuantity>30</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>31</ItemId>
+		<ItemName>Wine - Trimbach Pinot Blanc</ItemName>
+		<ItemPrice>82</ItemPrice>
+		<ItemQuantity>31</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>32</ItemId>
+		<ItemName>Beef - Tenderloin - Aa</ItemName>
+		<ItemPrice>30</ItemPrice>
+		<ItemQuantity>32</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>33</ItemId>
+		<ItemName>Lettuce - Radicchio</ItemName>
+		<ItemPrice>100</ItemPrice>
+		<ItemQuantity>33</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>34</ItemId>
+		<ItemName>Corn Syrup</ItemName>
+		<ItemPrice>86</ItemPrice>
+		<ItemQuantity>34</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>35</ItemId>
+		<ItemName>Mix - Cocktail Ice Cream</ItemName>
+		<ItemPrice>93</ItemPrice>
+		<ItemQuantity>35</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>36</ItemId>
+		<ItemName>Sugar - Individual Portions</ItemName>
+		<ItemPrice>83</ItemPrice>
+		<ItemQuantity>36</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>37</ItemId>
+		<ItemName>Pate Pans Yellow</ItemName>
+		<ItemPrice>48</ItemPrice>
+		<ItemQuantity>37</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>38</ItemId>
+		<ItemName>Turkey - Breast, Double</ItemName>
+		<ItemPrice>95</ItemPrice>
+		<ItemQuantity>38</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>39</ItemId>
+		<ItemName>Mustard - Individual Pkg</ItemName>
+		<ItemPrice>32</ItemPrice>
+		<ItemQuantity>39</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>40</ItemId>
+		<ItemName>Coriander - Seed</ItemName>
+		<ItemPrice>36</ItemPrice>
+		<ItemQuantity>40</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>41</ItemId>
+		<ItemName>Wine - Segura Viudas Aria Brut</ItemName>
+		<ItemPrice>19</ItemPrice>
+		<ItemQuantity>41</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>42</ItemId>
+		<ItemName>Sandwich Wrap</ItemName>
+		<ItemPrice>92</ItemPrice>
+		<ItemQuantity>42</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>43</ItemId>
+		<ItemName>Wine - Riesling Dr. Pauly</ItemName>
+		<ItemPrice>25</ItemPrice>
+		<ItemQuantity>43</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>44</ItemId>
+		<ItemName>Island Oasis - Strawberry</ItemName>
+		<ItemPrice>49</ItemPrice>
+		<ItemQuantity>44</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>45</ItemId>
+		<ItemName>Beef - Ground Lean Fresh</ItemName>
+		<ItemPrice>4</ItemPrice>
+		<ItemQuantity>45</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>46</ItemId>
+		<ItemName>Jolt Cola - Red Eye</ItemName>
+		<ItemPrice>38</ItemPrice>
+		<ItemQuantity>46</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>47</ItemId>
+		<ItemName>Shiratamako - Rice Flour</ItemName>
+		<ItemPrice>99</ItemPrice>
+		<ItemQuantity>47</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>48</ItemId>
+		<ItemName>Lettuce - Treviso</ItemName>
+		<ItemPrice>6</ItemPrice>
+		<ItemQuantity>48</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>49</ItemId>
+		<ItemName>Spice - Greek 1 Step</ItemName>
+		<ItemPrice>60</ItemPrice>
+		<ItemQuantity>49</ItemQuantity>
+	</Item>
+	<Item>
+		<ItemId>50</ItemId>
+		<ItemName>Ecolab - Orange Frc, Cleaner</ItemName>
+		<ItemPrice>35</ItemPrice>
+		<ItemQuantity>50</ItemQuantity>
+	</Item>
+</AllItem>
+
+
+

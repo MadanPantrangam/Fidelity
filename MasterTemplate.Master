@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterTemplate.master.cs" Inherits="SampleWebApp.MasterTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="MainStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .menu {
+            height: 308px;
+            width: 189px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+            <h1>ASP.NET Web Application Development.!!</h1>
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <div class="row menu">
+                <asp:Menu runat="server">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/HomePage1.aspx" Text="Home" />
+                        <asp:MenuItem NavigateUrl="~/Calculator.aspx" Text="My Calculator" />
+                        <asp:MenuItem NavigateUrl="~/DisplayEmployee.aspx" Text="Display Records" />
+                        <asp:MenuItem NavigateUrl="~/AddEmployee.aspx" Text="Add Employee" />
+                        <asp:MenuItem NavigateUrl="~/GridForm.aspx" Text="Grid View" />
+                        <asp:MenuItem NavigateUrl="~/MainMasterPage.aspx" Text="About App" />
+                        <asp:MenuItem Text="State Management">
+                            <asp:MenuItem NavigateUrl="~/QueryStringDemo.aspx" Text="Query String" />
+                            <asp:MenuItem NavigateUrl="~/CookiesDemo.aspx" Text="Cookie" />
+                            <asp:MenuItem NavigateUrl="~/PreviousPageDemo.aspx" Text="Previous Page" />
+                            <asp:MenuItem NavigateUrl="~/SessionDemo.aspx" Text="Session" />
+                            <asp:MenuItem NavigateUrl="~/AppProducts.aspx" Text="Products" />
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+            <div class="row center">
+                 <asp:ContentPlaceHolder ID="ChildContent" runat="server">
+                     <h2>Some content which will be modified by the child</h2>
+            </asp:ContentPlaceHolder>
+            </div>
+            <div class="row right">
+                <asp:Calendar runat="server" Height="314px" Width="296px"></asp:Calendar>
+            </div>
+        </div>
+        <div class="footer center">
+            <hr />
+            <i>Powered by ASP.NET Web Forms!!</i>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+﻿* {
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2px;
+    padding: 3px;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 22pt;
+    text-align: center;
+    color: lightcoral;
+}
+
+.row {
+    display: inline-block;
+    vertical-align: top;
+    background-color: cornflowerblue;
+}
+
+.menu {
+    background-color: cornflowerblue;
+}
+
+.center {
+    width: 47%;
+    background-color: pink;
+    height: 54px;
+}
